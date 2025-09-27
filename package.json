@@ -1,0 +1,24 @@
+{
+  "name": "f3-the-capital-landing",
+  "version": "1.0.0",
+  "description": "F3 The Capital landing pages - static HTML site with TailwindCSS",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build step required'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "f3",
+    "fitness",
+    "men",
+    "community",
+    "tailwindcss",
+    "static-site"
+  ],
+  "author": "F3 The Capital",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}

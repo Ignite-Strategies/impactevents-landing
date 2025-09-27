@@ -1,0 +1,52 @@
+<nav class="bg-blue-900 text-white shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo/Brand -->
+      <div class="flex-shrink-0">
+        <a href="/" class="text-xl font-bold">F3 The Capital</a>
+      </div>
+      
+      <!-- Desktop Navigation -->
+      <div class="hidden md:block">
+        <div class="ml-10 flex items-baseline space-x-4">
+          <a href="/" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+          <a href="/brosandbrews" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Brothers & Brews</a>
+          <a href="/capital" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">The Capital</a>
+          <a href="/joinus" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Join Us</a>
+          <a href="/grow" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Grow</a>
+          <a href="/partner" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Partner</a>
+        </div>
+      </div>
+      
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button type="button" class="bg-blue-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" onclick="toggleMobileMenu()">
+          <span class="sr-only">Open main menu</span>
+          <!-- Hamburger icon -->
+          <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Mobile menu -->
+  <div class="md:hidden hidden" id="mobile-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-blue-800">
+      <a href="/" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+      <a href="/brosandbrews" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Brothers & Brews</a>
+      <a href="/capital" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">The Capital</a>
+      <a href="/joinus" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Join Us</a>
+      <a href="/grow" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Grow</a>
+      <a href="/partner" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Partner</a>
+    </div>
+  </div>
+</nav>
+
+<script>
+function toggleMobileMenu() {
+  const mobileMenu = document.getElementById('mobile-menu');
+  mobileMenu.classList.toggle('hidden');
+}
+</script>
