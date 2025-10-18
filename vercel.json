@@ -18,26 +18,33 @@
     {
       "source": "/success",
       "destination": "/pages/success.html"
-    },
+    }
+  ],
+  "redirects": [
     {
       "source": "/capital",
-      "destination": "/pages/capital.html"
+      "destination": "/brosandbrews",
+      "permanent": true
     },
     {
       "source": "/joinus",
-      "destination": "/pages/joinus.html"
+      "destination": "/",
+      "permanent": true
     },
     {
       "source": "/partner",
-      "destination": "/pages/partner.html"
+      "destination": "/",
+      "permanent": true
     },
     {
       "source": "/donor",
-      "destination": "/pages/donor.html"
+      "destination": "/",
+      "permanent": true
     },
     {
       "source": "/grow",
-      "destination": "/pages/grow.html"
+      "destination": "/",
+      "permanent": true
     }
   ],
   "headers": [
