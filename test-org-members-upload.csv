@@ -1,0 +1,12 @@
+firstName,lastName,email,phone,goesBy,street,city,state,zip,employer,yearsWithOrganization,married,spouseName,numberOfKids,originStory,notes,categoryOfEngagement,tags
+John,Doe,john.doe@example.com,7034880601,Johnny,123 Main St,Arlington,VA,22201,Tech Corp,5,true,Jane Doe,2,Met at F3 workout in 2019. Been a faithful attendee ever since.,Great supporter of all events,high,"donor, volunteer, leader"
+Sarah,Smith,sarah.smith@example.com,5714445555,Sally,456 Oak Ave,Alexandria,VA,22314,Healthcare Plus,3,false,,,0,Introduced by mutual friend Tom. Very enthusiastic about mission.,Excellent communicator,high,"volunteer, organizer"
+Michael,Johnson,mike.johnson@example.com,7035551234,Mike,789 Pine Rd,Fairfax,VA,22030,Consulting LLC,7,true,Emily Johnson,3,Founding member. Has been with us since day one.,Extremely reliable and dedicated,high,"donor, leader, founding"
+Emily,Williams,emily.w@example.com,5718889999,Em,321 Elm St,Falls Church,VA,22042,Non-Profit Org,2,true,Michael Williams,1,Came to first event and immediately wanted to get involved.,Very passionate about the cause,medium,"volunteer, new"
+David,Brown,david.brown@example.com,7036667777,Dave,654 Maple Dr,Reston,VA,20190,Self-Employed,10,false,,,0,Long-time supporter. Brings new people to every event.,Excellent networker and connector,high,"donor, connector, veteran"
+Jessica,Garcia,jess.garcia@example.com,5713332222,Jess,987 Cedar Ln,Vienna,VA,22180,Marketing Agency,4,false,,,0,Met at community event. Loves our social impact mission.,Great at social media promotion,medium,"volunteer, marketing"
+Robert,Martinez,robert.m@example.com,7039998888,Rob,147 Birch Ct,McLean,VA,22101,Finance Corp,6,true,Lisa Martinez,2,Colleague referred him. Now brings whole family to events.,Strong financial contributor,high,"donor, family"
+Amanda,Rodriguez,amanda.r@example.com,5717776666,Mandy,258 Spruce Way,Arlington,VA,22204,Education Dept,3,false,,,0,Former student who came back to volunteer as adult.,Very dedicated volunteer,medium,"volunteer, alumni"
+Christopher,Lee,chris.lee@example.com,7034445555,Chris,369 Willow Rd,Alexandria,VA,22312,Tech Startup,2,true,Michelle Lee,0,Met through networking event. Interested in partnerships.,Good corporate partnership potential,medium,"partner, new"
+Jennifer,Taylor,jen.taylor@example.com,5716663333,Jen,741 Ash St,Fairfax,VA,22033,Law Firm,8,true,Mark Taylor,4,Longtime friend of founder. Super supportive.,Always brings friends to events,high,"donor, connector, veteran"
+

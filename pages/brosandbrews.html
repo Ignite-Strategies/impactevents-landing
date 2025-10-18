@@ -155,38 +155,10 @@
                 document.getElementById('footer-placeholder').innerHTML = data;
             });
 
-        // Stripe Checkout Integration
+        // Redirect to React Ticketing App
         document.getElementById('stripe-checkout-btn').addEventListener('click', function() {
-            // Note: This is a placeholder for Stripe integration
-            // In a real implementation, you would:
-            // 1. Create a Stripe Checkout session on your backend
-            // 2. Redirect to the Stripe Checkout page
-            // 3. Handle the success/cancel redirects
-            
-            alert('Stripe checkout integration would be implemented here. This would redirect to a secure Stripe checkout page for the $25+ ticket purchase.');
-            
-            // Example of what the actual implementation might look like:
-            /*
-            fetch('/create-checkout-session', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    priceId: 'price_brosandbrews_ticket',
-                    quantity: 1
-                })
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.url) {
-                    window.location.href = data.url;
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-            */
+            // Redirect to the React ticketing app (production)
+            window.location.href = 'https://ignite-ticketing.vercel.app';
         });
     </script>
 </body>
